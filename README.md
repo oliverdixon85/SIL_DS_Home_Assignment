@@ -28,3 +28,7 @@ in the original form.
 
 The original source file from Glottolog is not included but can be downloaded from 
 https://cdstar.shh.mpg.de/bitstreams/EAEA0-9478-C22F-4AAF-0/glottolog_source.bib.zip
+
+# Results
+
+Both programs worked and the SQLite database had one more entry than the csv and that's because the headers were included which added an extra row. I do think the create_sql_database.py could have been done more efficiently, it took very long, and I wasn't willing to risk a change and it take that long again, in which case I would not have had time to complete the assignment. 
